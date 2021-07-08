@@ -42,6 +42,20 @@ namespace TicTacToeGame
             Console.WriteLine("     |     |     \n\n");
 
         }
+        public void SelectLocation(char[] board,char letter)
+        {
+            ChoosingPlayer player = new ChoosingPlayer();
+            Console.WriteLine("Enter Location to Move:");
+            int index = Convert.ToInt32(Console.ReadLine());
+            if(board[index].Equals(" "))
+            {
+                board[index] = letter;
+            }
+            else
+            {
+                Console.WriteLine("Already Location is filled");
+            }
+        }
         
         
     }
