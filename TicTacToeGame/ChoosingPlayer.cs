@@ -11,9 +11,8 @@ namespace TicTacToeGame
         public char  ReadPlayerInput()
         {
             Console.WriteLine("Choose Letter To play X or O");
-            char Player = Convert.ToChar(Console.ReadLine());
-            //return char.ToUpper(Playerletter[0]);
-            return Player;
+            char PlayerValue = Convert.ToChar(Console.ReadLine());
+            return PlayerValue;
         }
         public char ReadComputerInput(char Player)
         {
