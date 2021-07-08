@@ -12,9 +12,9 @@ namespace TicTacToeGame
         {
             Console.WriteLine("Choose Letter To play X or O");
             char Player = Convert.ToChar(Console.ReadLine());
-            return Player;
+            return char.ToUpper(Player);
         }
-        public char ReadComputerInput(char Player)
+       /* public char ReadComputerInput(char Player)
         {
             char computerValue;
             if(Player=='X'||Player=='x')
@@ -27,6 +27,6 @@ namespace TicTacToeGame
             }
 
             return computerValue;
-        }
+        }*/
     }
 }

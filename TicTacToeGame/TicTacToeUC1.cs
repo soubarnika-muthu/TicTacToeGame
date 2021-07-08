@@ -32,12 +32,12 @@ namespace TicTacToeGame
             Console.WriteLine("_____|_____|_____\n");
             Console.WriteLine("     |     |     \n");
 
-            Console.WriteLine("  {3}   | {4}   | {5}  \n", board[4], board[5], board[6]);
+            Console.WriteLine("  {0}   | {1}   | {2}  \n", board[4], board[5], board[6]);
 
             Console.WriteLine("_____|_____|_____\n");
             Console.WriteLine("     |     |     \n");
 
-            Console.WriteLine("  {6}   | {7}  |  {8}  \n", board[7], board[8], board[9]);
+            Console.WriteLine("  {0}   | {1}  |  {2}  \n", board[7], board[8], board[9]);
 
             Console.WriteLine("     |     |     \n\n");
 
